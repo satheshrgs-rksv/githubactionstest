@@ -8,7 +8,8 @@
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest",
-    "postversion": "react-native-version --never-amend"
+    "postversion": "react-native-version --never-amend",
+    "release": "release-it"
   },
   "dependencies": {
     "react": "18.3.1",
@@ -33,6 +34,7 @@
     "prettier": "2.8.8",
     "react-native-version": "^4.0.0",
     "react-test-renderer": "18.3.1",
+    "release-it": "^17.10.0",
     "typescript": "5.0.4"
   },
   "engines": {
