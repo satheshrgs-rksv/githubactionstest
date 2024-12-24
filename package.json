@@ -8,7 +8,6 @@
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest",
-    "postversion": "react-native-version --never-amend",
     "release": "release-it"
   },
   "dependencies": {

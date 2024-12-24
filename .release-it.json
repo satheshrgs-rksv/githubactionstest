@@ -10,5 +10,8 @@
     "@release-it/conventional-changelog": {
       "preset": "angular"
     }
+  },
+  "hooks": {
+    "after:bump": "react-native-version --never-amend"
   }
 }
